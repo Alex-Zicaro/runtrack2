@@ -4,17 +4,17 @@ $al = 1;
 
 while ($al <= 100) {
 
-    if ($al %3 === 0 && $al %5 !== 0 ) {
-        print_r ('fizz <br>');
+    if ($al %3 === 0 ) {
+        print ("$al fizz <br>");
     } 
-    elseif ($al %3 !== 0 && $al %5 === 0 ) {
-        print_r ("buzz <br>");
+    elseif ($al %5 === 0 ) {
+        print ("$al buzz <br>");
     } 
     elseif ($al %3 === 0 && $al %5 === 0) {
-        print_r ("fizz buzz <br>");
+        print (" $al fizz buzz ");
     }
     else {
-        print_r ("$al <br>");
+        print ("$al <br>");
     }
     $al++;
 }
