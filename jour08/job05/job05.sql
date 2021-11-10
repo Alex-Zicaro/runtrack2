@@ -1,0 +1,1 @@
+SELECT  `nom`, `prenom`, `naissance` FROM `étudiants` WHERE "sexe" = "Femme"

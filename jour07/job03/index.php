@@ -31,7 +31,7 @@
     }
 
     if (isset($_POST) && isset($_POST['prenom'])) {
-        $_SESSION['prenom'] = $_SESSION['prenom']. "<br/>".$_POST['prenom']; 
+        $_SESSION['prenom'] =$_POST['prenom']. "<br/>" .$_SESSION['prenom']; 
 } 
 echo $_SESSION['prenom'];
 ?>
