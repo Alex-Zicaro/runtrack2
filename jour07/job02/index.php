@@ -1,18 +1,15 @@
 <?php
 
 if(isset($_COOKIE["nbvisites"])){
-    setcookie("nbvisites",$_COOKIE["nbvisites"]++);
-}
-else{
-    setcookie("nbvisites",0);
+    setcookie($_COOKIE["nbvisites"]++);
 }
 
-foreach($_POST as $key=>$value){
-    $value=0;
-    $_COOKIE["nbvisites"]=$value;
-setcookie("nbvisites",0);
-
+if(isset($_POST['oui'])  )
+{	
+    $_COOKIE['nbvisites'] = 0;
 }
+
+
 echo ($_COOKIE["nbvisites"]);
 
 
