@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+
+body{
+    background-color: rosybrown;
+    font-family: 'Yuji Mai', serif;
+}
+
+.tform {
+    width: 50%;
+}
