@@ -8,3 +8,9 @@ body{
 .tform {
     width: 50%;
 }
+select[id=css]{
+    font-family: 'Yuji Mai', serif;
+}
+input[type=submit]{
+    font-family: 'Yuji Mai', serif;
+}

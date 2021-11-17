@@ -1,5 +1,6 @@
 body{
     background-color: lightslategray;
+    font-family: 'Times New Roman', Times, serif
 
 }
 input[type=submit] {
@@ -7,6 +8,8 @@ input[type=submit] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+
 }
 
 select[id=css]{
@@ -14,4 +17,6 @@ select[id=css]{
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+
 }

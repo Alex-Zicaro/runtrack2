@@ -2,7 +2,7 @@
 	if ($_POST==true) {
 		switch ($_POST["style"]) {
 			case '1':
-				$style=="style1.css";
+				$style="style1.css";
 				break;
 			case '2':
 				$style="style2.css";				

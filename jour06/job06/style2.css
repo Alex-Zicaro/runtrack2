@@ -6,3 +6,10 @@ body{
     font-size: 200%;
 }
 
+select[id=css]{
+    font-family: 'Praise', serif;
+}
+
+input[type=submit]{
+    font-family: 'Praise', serif;
+}
